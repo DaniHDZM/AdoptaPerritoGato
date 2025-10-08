@@ -1,16 +1,20 @@
 .navbar {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 1.5rem;
   background-color: #2b7a78;
-  padding: 1rem;
-  position: sticky;
+  padding: 1rem 2rem;
+  position: fixed;
   top: 0;
-  z-index: 100;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .navbar a {
-  color: white;
+  color: #feffff;
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
@@ -20,10 +24,14 @@
   color: #def2f1;
 }
 
+main {
+  padding-top: 80px;
+}
+
 footer {
   text-align: center;
   background-color: #2b7a78;
-  color: white;
+  color: #feffff;
   padding: 1rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
