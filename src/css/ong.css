@@ -1,0 +1,48 @@
+.ong {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 2rem auto;
+}
+
+.ong h2 {
+  color: #2b7a78;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.ong p {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.ong-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.ong-links a {
+  background-color: #2b7a78;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.ong-links a:hover {
+  background-color: #3aafa9;
+  transform: scale(1.05);
+}
+
+.ong-links a:focus {
+  outline: 2px solid #3aafa9;
+  outline-offset: 4px;
+}
