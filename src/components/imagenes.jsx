@@ -1,15 +1,17 @@
 import '../css/imagenes.css'
+import perritoImg from '../images/Perrito.jpeg';
+import gatitoImg from '../images/gatito.jpg';
 
 const Imagenes = () => {
     return (
         <>
             <section className='PerroGato'>
                 <article>
-                    <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" alt="Imagen de perrito" />
+                    <img src={perritoImg} alt="Imagen de perrito" />
                     <p>Adopta un perro</p>
                 </article>
                 <article>
-                    <img src="https://images.pexels.com/photos/20787/pexels-photo.jpg" alt="Imagen de gato" />
+                    <img src={gatitoImg} alt="Imagen de gato" />
                     <p>Adopta un gato</p>
                 </article>
             </section>
