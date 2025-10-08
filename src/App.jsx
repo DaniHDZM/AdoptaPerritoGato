@@ -21,7 +21,6 @@ function App() {
         <Element name="imagenes">
           <Imagenes />
         </Element>
-
         <Element name="tabla">
           <Tabla />
         </Element>
