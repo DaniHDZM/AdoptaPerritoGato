@@ -4,7 +4,7 @@ import '../css/tabla.css'
 const Tabla = () => {
   return (
     <table>
-      <caption>Lista de animales disponibles para adopción</caption>
+      <h2>Lista de animales disponibles para adopción</h2>
       <thead>
         <tr>
           <th scope="col">Animal</th>

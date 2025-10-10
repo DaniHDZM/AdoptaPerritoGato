@@ -9,13 +9,14 @@ function App() {
   return (
     <>
       <header>
-        <nav className="navbar">
-          <Link to="imagenes" smooth={true} duration={500}>Imágenes</Link>
-          <Link to="tabla" smooth={true} duration={500}>Tabla</Link>
-          <Link to="formulario" smooth={true} duration={500}>Formulario</Link>
-          <Link to="ong" smooth={true} duration={500}>ONG</Link>
-        </nav>
+          <h1>Adopta a un amigo</h1>
       </header>
+      <nav className="navbar">
+        <Link to="imagenes" smooth={true} duration={500}>Imágenes</Link>
+        <Link to="tabla" smooth={true} duration={500}>Tabla</Link>
+        <Link to="formulario" smooth={true} duration={500}>Formulario</Link>
+        <Link to="ong" smooth={true} duration={500}>ONG</Link>
+      </nav>
 
       <main>
         <Element name="imagenes">

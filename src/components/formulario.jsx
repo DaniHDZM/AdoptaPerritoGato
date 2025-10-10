@@ -3,6 +3,7 @@ import '../css/formulario.css'
 const Formulario = () => {
     return (
         <form>
+            <h2>Formulario para ayudar</h2>
             <label htmlFor="nombre">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required />
 
