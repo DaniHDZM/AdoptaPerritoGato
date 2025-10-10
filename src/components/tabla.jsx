@@ -3,8 +3,9 @@ import '../css/tabla.css'
 
 const Tabla = () => {
   return (
-    <table>
+    <>
       <h2>Lista de animales disponibles para adopción</h2>
+      <table>
       <thead>
         <tr>
           <th scope="col">Animal</th>
@@ -53,6 +54,7 @@ const Tabla = () => {
        </tr>
       </tbody>
     </table>
+    </>
   );
 };
 

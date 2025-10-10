@@ -42,3 +42,9 @@ caption {
   padding: 1rem 0;
   text-align: center;
 }
+
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
