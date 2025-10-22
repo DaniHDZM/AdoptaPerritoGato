@@ -39,3 +39,11 @@ header {
   display: flex;
   justify-content: center;
 }
+
+.navbar a:focus {
+  outline: 3px solid #ffd54f; /* Amarillo más brillante */
+  outline-offset: 4px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: outline 0.3s ease, background-color 0.3s ease;
+}

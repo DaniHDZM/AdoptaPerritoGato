@@ -7,11 +7,11 @@ const Imagenes = () => {
         <>
             <section className='PerroGato'>
                 <div>
-                    <img src={perritoImg} alt="Perritos en un jardin" />
+                    <img src={perritoImg} alt="Dos perritos jugando en un jardín" />
                     <p>Adopta un perro</p>
                 </div>
                 <div>
-                    <img src={gatitoImg} alt="Gato arriba de un sofa" />
+                    <img src={gatitoImg} alt="Gato descansando sobre un sofá" />
                     <p>Adopta un gato</p>
                 </div>
             </section>
