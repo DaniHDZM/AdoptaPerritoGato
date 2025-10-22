@@ -18,35 +18,35 @@ const Tabla = () => {
 
       <tbody>
         <tr>
-          <td scope="row" >Gata</td>
+          <th scope="row" >Gata</th>
           <td>Luna</td>
           <td>2 años</td>
           <td>Mediana</td>
           <td>Juguetona y cariñosa</td>
         </tr>
         <tr>
-          <td scope="row" >Perro</td>
+          <th scope="row" >Perro</th>
           <td>Max</td>
           <td>4 años</td>
           <td>Grande</td>
           <td>Tranquilo y sociable</td>
         </tr>
         <tr>
-          <td scope="row" >Perra</td>
+          <th scope="row" >Perra</th>
           <td>Bella</td>
           <td>1 año</td>
           <td>Pequeña</td>
           <td>Enérgica y protectora</td>
         </tr>
         <tr>
-          <td scope="row" >Perro</td>
+          <th scope="row" >Perro</th>
           <td>Toby</td>
           <td>7 años</td>
           <td>Pequeño</td>
           <td>Calmado y leal</td>
         </tr>
         <tr>
-          <td scope="row" >Gata</td>
+          <th scope="row" >Gata</th>
           <td>Nala</td>
           <td>3 años</td>
           <td>Mediana</td>

@@ -10,13 +10,20 @@ table {
   max-width: 900px;
 }
 
-th {
+thead th {
   background-color: #2b7a78;
   color: #feffff;
   font-weight: 600;
   text-align: left;
   padding: 1rem;
   letter-spacing: 0.5px;
+}
+
+tbody th {
+  border-bottom: 1px solid #ddd;
+  padding: 0.9rem 1rem;
+  text-align: left;
+  font-weight: lighter;
 }
 
 td {
