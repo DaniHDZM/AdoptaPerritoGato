@@ -11,7 +11,6 @@ const Ong = () => {
           href="https://www.instagram.com/zadrigman/"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Ir al Instagram de Zadrigman"
         >
           🐾 Zadrigman
         </a>
@@ -20,7 +19,6 @@ const Ong = () => {
           href="https://www.ssc.cdmx.gob.mx/agrupamientos/brigada-de-vigilancia-animal"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Visitar la Brigada de Vigilancia Animal"
         >
           🐕 Brigada de Vigilancia Animal
         </a>
